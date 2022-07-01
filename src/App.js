@@ -13,7 +13,16 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Shweta</small>
+          <small>
+            Coded by Shweta{" "}
+            <a
+              href="https://github.com/Shwetakotak/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open-sourced on Github{" "}
+            </a>
+          </small>
         </footer>
       </div>
     </div>
